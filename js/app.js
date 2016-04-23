@@ -15,8 +15,6 @@ helloWorldApp.config(['$routeProvider', '$locationProvider',
 				controller: 'ShowCtrl' 
 		});
 		$locationProvider
-			.html5Mode(false)
-			.hashPrefix('!');	
-			
+			.html5Mode(false);
 	} 
 ]);
