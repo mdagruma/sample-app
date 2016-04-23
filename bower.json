@@ -1,0 +1,21 @@
+{
+  "name": "sample-app",
+  "description": "Learning AngularJS",
+  "main": "app.js",
+  "authors": [
+    "Mike D'Agruma"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}
