@@ -1,2 +1,5 @@
 'use strict'
-var helloWorldApp = angular.module('helloWorldApp', []);
+var helloWorldApp = angular.module('helloWorldApp', [
+		'ngRoute',
+		'helloWorldControllers'	
+	]);
