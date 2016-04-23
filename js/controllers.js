@@ -20,7 +20,7 @@ helloWorldControllers.controller('ComicCtrl', ['$scope',
   function ComicCtrl($scope) {
     $scope.comics = {
       {
-        title: 'Spiderman'
+        title: 'Amazing Spider-Man'
         issue: {
           number: 300,
           date: '05/1988'
