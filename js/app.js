@@ -12,9 +12,11 @@ helloWorldApp.config(['$routeProvider', '$locationProvider',
 				controller: 'MainCtrl' }).
 			when('/show', {
 				templateUrl: 'partials/show.html',
-				controller: 'ShowCtrl' 
-		});
-		$locationProvider
-			.html5Mode(false);
+				controller: 'ShowCtrl' }).
+			when('/comics', {
+				templateUrl: 'partials/comics.html',
+				controller: 'ComicCtrl'	 
+			});
+		$locationProvider.html5Mode(false);
 	} 
 ]);

@@ -15,3 +15,11 @@ helloWorldControllers.controller('ShowCtrl', ['$scope',
 		$scope.message = "Show Matt my wife, Jenn Sterger!";
 	}
 ]);
+
+/* Comic Controller */
+
+helloWorldControllers.controller('ComicCtrl', ['$scope',
+	function ShowCtrl($scope) {
+		$scope.message = "Show Matt my wife, Jenn Sterger!";
+	}
+]);
